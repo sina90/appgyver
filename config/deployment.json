@@ -1,0 +1,27 @@
+{
+  "id": 216,
+  "current_version_id": "10",
+  "versions": [
+    {
+      "id": 216,
+      "version": "10",
+      "owner_id": 382559,
+      "module_zip_last_uploaded_at": "2016-08-12T22:47:57.095Z",
+      "module_zip_upload_instructions": {
+        "key": "uploads/web_component/module_zip/11c05906-b3cf-487d-aa64-89584368b7f0/module.zip",
+        "AWSAccessKeyId": "AKIAJJSXXQRL4UNGBAXQ",
+        "acl": "public-read",
+        "policy": "eyJleHBpcmF0aW9uIjoiMjAxNi0wOC0xM1QwODo0NTowOC43NDRaIiwiY29uZGl0aW9ucyI6W1sic3RhcnRzLXdpdGgiLCIkdXRmOCIsIiJdLFsic3RhcnRzLXdpdGgiLCIka2V5IiwidXBsb2Fkcy93ZWJfY29tcG9uZW50L21vZHVsZV96aXAvMTFjMDU5MDYtYjNjZi00ODdkLWFhNjQtODk1ODQzNjhiN2YwL21vZHVsZS56aXAiXSx7ImJ1Y2tldCI6ImFwcGd5dmVyLW1vZHVsZXMifSx7ImFjbCI6InB1YmxpYy1yZWFkIn0seyJzdWNjZXNzX2FjdGlvbl9yZWRpcmVjdCI6bnVsbH0seyJ4LWFtei1tZXRhLW1vZHVsZS1pZCI6IjIxNiJ9LHsieC1hbXotbWV0YS1tb2R1bGUtdmVyc2lvbiI6IjEyIn0sWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMSwyMDk3MTUyMDBdXX0=",
+        "signature": "YLsIV6LZ5wAEUCnrDX6GFTxSrnM=",
+        "success_action_status": null,
+        "utf8": "",
+        "metadata": {
+          "x-amz-meta-module-id": "216",
+          "x-amz-meta-module-version": "12"
+        },
+        "__endpoint": "https://appgyver-modules.s3.amazonaws.com"
+      },
+      "location": "https://composer2.appgyver.com/web_components/216"
+    }
+  ]
+}
