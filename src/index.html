@@ -1,0 +1,69 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="components/supersonic/css/supersonic.css" />
+    <link rel="import" href="components/supersonic/components/import.html">
+
+    <style>
+      /* #container keeps element's margins from overflowing
+       * and causing mis-resizing of modules in apps.
+       * Please don't remove #container!
+       */
+      #container {
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        right: 0;
+      }
+      /*#input{
+        margin-left: 1%;
+        width: 70%;
+        display: inline-block;
+        position: relative;
+      }*/
+
+
+      #rec{
+        position: relative;
+      }
+
+      #response{
+        width: 100%;
+        background-color: #d4d4d4;
+        color: black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Don't remove this #container -->
+
+
+      <div>
+        <div class = "input-group">
+        <input id="input" type="text" placeholder="Press Enter or Use Speak button to talk to me" class = "form-control"><span class = "input-group-btn"> <button id="rec" type = "button" class = "btn btn-warning">Speak</button></span>
+      </div><br />
+         <textarea id="response" rows="2" placeholder="My response ..."></textarea>
+      </div>
+
+      <!-- - - Edit body above this line - - -->
+    </div>
+
+    <script type="text/javascript">
+      window.cordova = window.parent.cordova
+    </script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="components/handlebars/handlebars.min.js"></script>
+    <script src="components/steroids-js/steroids.js"></script>
+    <script src="components/jquery/dist/jquery.min.js"></script>
+
+    <script src="components/supersonic/supersonic.js"></script>
+    <script src="components/webcomponentsjs/webcomponents.js"></script>
+    <script src="app/api_ai.js"></script>
+
+    <script src="components/momentjs/min/moment.min.js"></script>
+
+    <!-- build:js module.min.js -->
+    <script src="app/example.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
